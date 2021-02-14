@@ -66,3 +66,18 @@ header a {
     justify-content: center;
 
 }
+.hero-cta {
+    width: 100%;
+    text-align: right;
+    margin: 3.5%;
+    font-size: 18px;
+    line-height: 1.2;
+    
+  }
+
+.hero-cta h2 {
+    display: inline-block;
+    font-size: 36px;
+    color: rgb(7, 7, 49);
+    background-color: goldenrod;
+}
