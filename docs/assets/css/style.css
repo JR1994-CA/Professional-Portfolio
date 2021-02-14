@@ -1,0 +1,68 @@
+/* Global */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*Website background */
+
+body {
+    background-color: white;
+}
+
+/* Header */
+
+header {
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:rgb(7, 7, 49);
+    color:rgb(7, 7, 49);
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 36px;
+   /* background-color:goldenrod; */
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15 px;
+    
+}
+header nav ul {
+    list-style: none;
+  
+
+}
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+  
+}
+header nav ul li a {
+    background-color:rgb(7, 7, 49);
+    color:goldenrod;
+    text-decoration: none;
+   
+}
+
+header a {
+    text-decoration: none;
+}
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/PatternAesthetic.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+
+}
