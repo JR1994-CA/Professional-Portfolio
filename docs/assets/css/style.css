@@ -109,7 +109,7 @@ header a {
 }
 .about-me img {
     max-width: 200px;
-    border-radius: 15%;
+    border-radius: 200px 200px;
     padding-top: 20px;
 
 }
@@ -117,11 +117,6 @@ header a {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
-}
-.main-project {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: auto;
 }
 .mainproject-img img {
     padding: 20px;
@@ -132,6 +127,32 @@ header a {
 
 .main-project h3, p {
     color: goldenrod;
+}
+
+
+
+.side-projects {
+    display: flex;
+}
+
+.horiseon {
+    display: block;
+    padding: 20px 10px 20px 80px;
+}
+
+
+.horiseon-img {
+    padding: 10px;
+    display: block;
+}
+
+.horiseon-img img {
+    max-width: 20%;
+    border-radius: 100px 100px;
+}
+
+.horiseon-text h3, p {
+    color:goldenrod;
 }
 
 
@@ -147,4 +168,7 @@ header a {
 }
 .flex-row {
    display: flex;
+}
+.flex-block {
+    display: inline-block;
 }
