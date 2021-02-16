@@ -18,13 +18,13 @@ body {
 header {
     padding: 20px;
     background-color:rgb(7, 7, 49);
-    color:rgb(7, 7, 49);
+    
 }
 
 header h1 {
     display: inline-block;
     font-size: 36px;
-   /* background-color:goldenrod; */
+   
 }
 
 header nav {
@@ -53,6 +53,7 @@ header nav ul li a {
 
 header a {
     text-decoration: none;
+    color:goldenrod;
 }
 .hero {
     margin-bottom: 25px;
@@ -176,12 +177,37 @@ header a {
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 1%;
+    padding: 50px 60px;
 }
 .contacts a {
     font-size: 36px;
     padding: 10px;
     color:goldenrod;
     text-decoration: none;
+}
+
+footer {
+    display: flex;
+    padding: 20px 50px;
+    background-color:rgb(7, 7, 49);
+}
+footer nav {
+    float: right;
+}
+
+footer nav ul {
+    list-style: none;
+}
+
+footer nav ul li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+footer nav ul li a {
+    color:goldenrod;
+    text-decoration: none;
+    
 }
 
 
@@ -198,10 +224,4 @@ header a {
 }
 .text-right {
    text-align: right;
-}
-.flex-row {
-   display: flex;
-}
-.flex-block {
-    display: inline-block;
 }
