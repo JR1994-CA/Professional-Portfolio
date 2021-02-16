@@ -169,6 +169,20 @@ header a {
     text-decoration: none;
 }
 
+/* Contact Me Section */
+
+.contacts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+.contacts a {
+    font-size: 36px;
+    padding: 10px;
+    color:goldenrod;
+    text-decoration: none;
+}
 
 
 
